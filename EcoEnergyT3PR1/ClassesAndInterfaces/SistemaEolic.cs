@@ -19,7 +19,7 @@
             if (VelocitatVent >= MinSpeed) //El cas contrari no es donarà perquè està gestionat al programa principal. Condicional present pel Unit testing
             {
                 return Math.Round(Math.Pow(VelocitatVent, 3) * 0.2, NumDecimals);
-            } else { return 0; }
+            } else { return -1; }
         }
     }
 }
