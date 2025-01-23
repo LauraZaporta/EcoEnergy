@@ -17,7 +17,11 @@
         public override double CalcularEnergia()
         {
             const int NumDecimals = 2;
-            return Math.Round(HoresDeSol * 1.5, NumDecimals);
+            if (HoresDeSol >= 1)
+            {
+                return Math.Round(HoresDeSol * 1.5, NumDecimals);
+            }
+            else { return 0; }
         }
     }
 }
