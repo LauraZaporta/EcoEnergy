@@ -17,7 +17,8 @@
         public override double CalcularEnergia()
         {
             const int NumDecimals = 2;
-            if (HoresDeSol >= 1)
+            const int MinHours = 1;
+            if (HoresDeSol >= MinHours) //El cas contrari no es donarà perquè està gestionat al programa principal. Condicional present pel Unit testing
             {
                 return Math.Round(HoresDeSol * 1.5, NumDecimals);
             }

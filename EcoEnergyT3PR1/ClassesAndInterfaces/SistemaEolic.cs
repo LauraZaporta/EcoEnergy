@@ -15,7 +15,11 @@
         public override double CalcularEnergia()
         {
             const int NumDecimals = 2;
-            return Math.Round(Math.Pow(VelocitatVent, 3) * 0.2, NumDecimals);
+            const int MinSpeed = 5;
+            if (VelocitatVent >= MinSpeed) //El cas contrari no es donarà perquè està gestionat al programa principal. Condicional present pel Unit testing
+            {
+                return Math.Round(Math.Pow(VelocitatVent, 3) * 0.2, NumDecimals);
+            } else { return 0; }
         }
     }
 }
