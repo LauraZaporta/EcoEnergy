@@ -1,0 +1,38 @@
+﻿SistemaSolar.CalcularEnergia()
+------------------------------
+
+- Classes d'equivalència: (-∞,0) --> Invàlid
+						  [1, +∞) --> Vàlid
+
+- Casos límit: 0, 1, 2
+
+- Casos de prova:
+	o Cas vàlid (num positiu del 3 al +∞): ENTRADA 5, ACCIONS CalcularEnergia(), RES.ESPERAT 7,5 RES.OBTINGUT 7,5
+	o Cas límit (num límit 0 a 2): ENTRADA 1, ACCIONS CalcularEnergia(), RES.ESPERAT 1,5 RES.OBTINGUT 1,5
+	o Cas invàlid (num per sota d'1): ENTRADA 0, ACCIONS CalcularEnergia(), RES.ESPERAT -1 RES.OBTINGUT -1
+
+SistemaEòlic.CalcularEnergia()
+------------------------------
+
+- Classes d'equivalència: (-∞,4) --> Invàlid
+						  [5, +∞) --> Vàlid
+
+- Casos límit: 4, 5, 6
+
+- Casos de prova:
+	o Cas vàlid (num positiu del 6 al +∞): ENTRADA 10, ACCIONS CalcularEnergia(), RES.ESPERAT 200 RES.OBTINGUT 200
+	o Cas límit (num límit 4 a 6): ENTRADA 5, ACCIONS CalcularEnergia(), RES.ESPERAT 25 RES.OBTINGUT 25
+	o Cas invàlid (num per sota de 5): ENTRADA 0, ACCIONS CalcularEnergia(), RES.ESPERAT -1 RES.OBTINGUT -1
+
+SistemaHidroelèctric.CalcularEnergia()
+--------------------------------------
+
+- Classes d'equivalència: (-∞,19) --> Invàlid
+						  [20, +∞) --> Vàlid
+
+- Casos límit: 19, 20, 21
+
+- Casos de prova:
+	o Cas vàlid (num positiu del 21 al +∞): ENTRADA 30, ACCIONS CalcularEnergia(), RES.ESPERAT 235,2 RES.OBTINGUT 235,2
+	o Cas límit (num límit 19 a 21): ENTRADA 20, ACCIONS CalcularEnergia(), RES.ESPERAT 156,8 RES.OBTINGUT 156,8
+	o Cas invàlid (num per sota de 20): ENTRADA 0, ACCIONS CalcularEnergia(), RES.ESPERAT -1 RES.OBTINGUT -1
