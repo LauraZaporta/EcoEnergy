@@ -26,4 +26,5 @@ Espero que t'ajudi! Si tens més dubtes, no dubtis a preguntar.
 	
 - Himanshu Sheth (22/3/2021). NUnit vs. XUnit vs. MSTest: Unit Testing Frameworks. Lambdatest. 22/01/2025 https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
 
-* SonarQube es tanca immediatament després d'obrir-lo. Tinc la versió que toca de java (jdk 17) i tots els requisits necessaris. No sé què passa.
+SonarQube es tanca immediatament després d'obrir-lo. Tinc la versió que toca de java (jdk 17) i tots els requisits necessaris. No sé què passa.
+El diagrama UML està en format .cd a la carpeta EcoEnergyT3PR1 --> ClassesAndInterfaces
