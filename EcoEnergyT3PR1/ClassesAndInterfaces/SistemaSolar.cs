@@ -22,7 +22,7 @@
             {
                 return Math.Round(HoresDeSol * 1.5, NumDecimals);
             }
-            else { return 0; }
+            else { return -1; }
         }
     }
 }
