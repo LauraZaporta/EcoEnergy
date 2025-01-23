@@ -1,6 +1,6 @@
 Referències:
 
-- ProgrammingKnowledge (FEB/2024). How to Sonarqube Setup From Scratch And Code Analysis 22/01/2025 https://youtu.be/6vdRvz_LnbQ
+- Sonar (JAN/2024). Installing SonarQube on Windows 22/01/2025 https://youtu.be/O0yFLS30InY
 
 - José María Megino Barquinero (18/3/2013). Tipos de relaciones en diagramas de casos de uso. UML. BlogSEAS 22/01/2025 https://www.seas.es/blog/informatica/tipos-de-relaciones-en-diagramas-de-casos-de-uso-uml/
 
