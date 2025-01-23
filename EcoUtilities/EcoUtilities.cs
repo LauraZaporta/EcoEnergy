@@ -1,4 +1,4 @@
-﻿namespace Eco
+﻿namespace EcoUtilities
 {
     public class EcoUtils
     {
