@@ -20,7 +20,7 @@
             {
                 return Math.Round(CabalAigua * 9.8 * 0.8, NumDecimals);
             }
-            else { return 0; }
+            else { return -1; }
         }
     }
 }
