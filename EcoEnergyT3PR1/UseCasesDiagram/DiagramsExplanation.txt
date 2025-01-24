@@ -1,0 +1,7 @@
+Use Cases Diagram: In the use cases diagram We have 3 types of elements: the system(subject - EcoEnergy system), the actor, and the use cases. In this project there's only one actor; the user who will be using the system; the active
+element of the diagram which triggers the use cases. And, in the other hand, we have the uses cases: the main ones (iniciar simulació and exit), the extended one of "iniciar simulació": "veure informe de simulacions" (It depends
+on the first one) and the ones which related in a generalization way with "iniciar simulació" (specific cases).
+
+UML Diagram: In the UML diagram there are 4 classes and 1 interface. Begining with the interface; It includes 1 method (CalcularEnergia();) which is used by all the non-abstract classes (so these ones implement the interface).
+Then, there's the abstract class (SistemaEnergia) which encapsulates all the shared attributes and behaviour of the classes that inherit from this one. And finally we have the classes which can be worked with instances (SistemaSolar, 
+SistemaEolic, SistemaHidroelectric) which override the method CalcularEnergia(); (from the interface and inherited from SistemaEnergia) in the way they need and have their own unique attribute (CabalAigua, VelocitatVent and HoresDeSol).
